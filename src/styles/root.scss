@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    background-color : #1D4ED8;
+    color : white;
+    font-family: 'Roboto Condensed', 'Ubuntu', sans-serif;
+    background-image: url('/images/back2.png');
+  }
+  
+  button {
+    background-color:#1D4ED8;
+    border: none;
+    outline: none;
+    &:hover {
+     cursor: pointer;
+    }
+  }
+  
+  .app {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    width : 80%;
+    margin: auto;
+    background-color: #1D4ED8;
+  }
+  
+  .board {
+    .board-row {
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid white;
+      &:last-child {
+        border-bottom: none;
+      }
+      .square {
+        width: 80px;
+        height: 80px;
+        border-right: 1px solid white;
+        font-size: 2.5rem;
+        padding: 0;
+        overflow: hidden;
+        transition: all 0.2s;
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+  }
+
+.btn-move{
+  color : white;
+  // font-size : 16px;
+}
+.history-head{
+  font-size : 22px;
+  letter-spacing: 1px;
+}
+ul{
+  color : #FACC15;
+}
+.new-game{
+  padding : 10px;
+  margin-top : 15px;
+  border : 1.5px solid #16A34A;
+  border-radius : 50px;
+  color : white;
+  font-size : 15px;
+  &:hover{
+    background-color: #16A34A;
+  }
+}
+
+.status{
+  font-size : 18px;
+  margin : 0;
+  margin-bottom : 30px;
+  letter-spacing: 0.5px;
+}
+
+.text-yellow{
+  color : #FACC15;
+}
+.text-green{
+  color : #22C55E;
+}
+.bold{
+  font-weight : bold;
+}
+.active{
+  color : #FACC15;
+}
+.active-back{
+  background-color: #16A34A;
+}
+.history-head{
+  color : #FACC15;
+  text-decoration: underline;
+  // margin-bottom : 5px;
+}
