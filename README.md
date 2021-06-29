@@ -17,7 +17,7 @@ Made a TIC-TAC-TOE Game in REACT along with a Game history panel where you can t
 
 <br>
 
-## ➡️ Languages/Technologies
+## 📌 Languages/Technologies
 - HTML
 - CSS (SASS)
 - REACT
@@ -26,7 +26,7 @@ Made a TIC-TAC-TOE Game in REACT along with a Game history panel where you can t
 
 <br>
 
-## ➡️ Features
+## 📌 Features
 
 ### GAME HISTORY Panel
 You can trace back all the moves you played in the current game.
@@ -34,17 +34,17 @@ You can trace back all the moves you played in the current game.
 <br>
 
 
-## ➡️ Live Link
+## 📌 Live Link
 ### https://tictactoe-react6.netlify.app/
 
 <br>
 
-## ➡️ Link to Portfolio 
+## 📌 Link to Portfolio 
 ### https://gaganpreetkaurkalsi.netlify.app/
 
 <br>
 
-## ➡️ Demo Video
+## 📌 Demo Video
 Here is a demo video of the working app
 
 https://user-images.githubusercontent.com/54144759/123781849-4f5b4980-d8f2-11eb-9087-d137990bbe9c.mp4
